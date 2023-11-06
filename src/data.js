@@ -10,7 +10,7 @@ const sampleCourses = [
     schedule: "Mon, Wed, Fri",
     location: "Online",
     prerequisites: "None",
-    syllabus: "Course syllabus goes here...",
+    syllabus: "Week 1: Introduction to CSS, Week 2: CSS Selectors, Week 3: CSS Properties and Values, Week 4: Layout and Positioning,Week 5: Responsive Web Design, Week 6: Transitions and Animations, Week 7: CSS Preprocessors,Week 8: Best Practices and Project ",
     dueDate: 'December 31, 2023',
     image:
       "https://www.w3docs.com/uploads/media/default/0001/05/6d07a36ebe6d55273b39440f2391f1d7e6d4092a.png",
@@ -25,7 +25,8 @@ const sampleCourses = [
     schedule: "Mon, Wed, Fri",
     location: "Online",
     prerequisites: "None",
-    syllabus: "Course syllabus goes here...",
+    syllabus: "Introduction to HTML covering basic document structure, text formatting, links, images, forms, HTML5 semantics, best practices, and a final project.",
+    dueDate: 'December 25, 2023',
     image:
       "https://d1jnx9ba8s6j9r.cloudfront.net/imgver.1551437392/img/co_img_1518_1631724053.png",
   },
@@ -39,7 +40,8 @@ const sampleCourses = [
     schedule: "Tue, Thu",
     location: "Online",
     prerequisites: "Basic programming knowledge is recommended.",
-    syllabus: "Course syllabus goes here...",
+    syllabus: "Course Title: Introduction to Python covering basic syntax, data types, control structures, functions, libraries, and practical coding exercises.",
+    dueDate: 'December 31, 2023',
     image:
       "https://trisectinstitute.com/wp-content/uploads/2021/12/best-python-training.png",
   },
@@ -54,7 +56,8 @@ const sampleCourses = [
     schedule: "Mon, Wed",
     location: "Online",
     prerequisites: "Basic understanding of programming and mathematics.",
-    syllabus: "Course syllabus goes here...",
+    syllabus: "Introduction to Machine Learning exploring algorithms, data preprocessing, model evaluation, and practical applications.",
+    dueDate: 'January 15, 2024',
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToCKJ7kOFFIxJYr__UXFFg9qbRgfH_1W7qYg&usqp=CAU",
   },
@@ -68,7 +71,8 @@ const sampleCourses = [
     schedule: "Tue, Thu, Sat",
     location: "Online",
     prerequisites: "No prior experience required.",
-    syllabus: "Course syllabus goes here...",
+    syllabus: "Introduction to Web Development covering HTML, CSS, JavaScript, responsive design, and building a basic website",
+    dueDate: 'January 15, 2024',
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp71bMNhc491wpEmqoDRNybniIVMKOOfRnAI8J9Va9lTTRYM1BBG2aEK1422jPNi7CykI&usqp=CAU",
   },
@@ -82,7 +86,8 @@ const sampleCourses = [
     schedule: "Mon, Wed, Fri",
     location: "Online",
     prerequisites: "Basic knowledge of statistics is recommended.",
-    syllabus: "Course syllabus goes here...",
+    syllabus: " Introduction to Data Science, exploring data analysis, statistics, machine learning, and real-world data projects",
+    dueDate: 'January 25, 2024',
     image:
       "https://s40424.pcdn.co/in/wp-content/uploads/2023/08/Featured-Images-April-28-1140x628.png.webp",
   },
@@ -96,7 +101,8 @@ const sampleCourses = [
     schedule: "Mon, Wed",
     location: "Online",
     prerequisites: "No prior programming experience required.",
-    syllabus: "Course syllabus goes here...",
+    syllabus: "Introduction to Java programming, covering syntax, data types, control structures, object-oriented programming, and basic application development.",
+    dueDate: 'January 1, 2024',
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdbO89i5oTybW6jIf-6Vyy9LU1V8gAzRZK79hUCTtKhbt7PiZb79_50qM6mJfjPhwR_Yw&usqp=CAU",
   },
@@ -111,7 +117,8 @@ const sampleCourses = [
     schedule: "Tue, Thu",
     location: "Online",
     prerequisites: "Basic computer skills are recommended.",
-    syllabus: "Course syllabus goes here...",
+    syllabus: "Introduction to Cybersecurity, covering key concepts, threat analysis, security practices, and hands-on exercises in securing digital environments",
+    dueDate: 'January 4, 2025',
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDOI6LurWiGBb3w9KdmruY2PGG6RQtrQepLfmMvZalCfRKKI0oyDtn-gCAdECtKXbqRyM&usqp=CAU",
   },
@@ -125,7 +132,8 @@ const sampleCourses = [
     schedule: "Tue, Thu",
     location: "Online",
     prerequisites: "Familiarity with JavaScript is a plus.",
-    syllabus: "Course syllabus goes here...",
+    syllabus: " Introduction to Mobile App Development, covering app design, development for Android and iOS, user interfaces, and app deployment",
+    dueDate: 'January 15, 2024',
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGA7iuRQkXsoTu33evQNeCFsw5CugghbukognkWFJcBixtnDN0TwHfjGiKpxhU5LzOnSM&usqp=CAU",
   },
