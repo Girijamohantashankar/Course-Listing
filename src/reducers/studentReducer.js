@@ -7,7 +7,19 @@ const initialState = {
 const studentReducer = (state = initialState, action) => {
   switch (action.type) {
     case MARK_COMPLETED:
-      return state;
+      const courseIdToMarkAsCompleted = action.payload;
+      const updatedEnrolledCourses = state.enrolledCourses.map((course) => {
+        if (course.id === courseIdToMarkAsCompleted) {
+          return { ...course, completed: true };
+        }
+        return course;
+      });
+
+      return {
+        ...state,
+        enrolledCourses: updatedEnrolledCourses,
+      };
+
     default:
       return state;
   }
