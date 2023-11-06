@@ -16,7 +16,7 @@ function StudentDashboard({ enrolledCourses }) {
   return (
     <div className='student-dashboard'>
       <h1>Student Dashboard</h1>
-      <ul>
+      <ol className='student-course'>
         {courses.map((course) => (
           <li key={course.id}>
             <strong>{course.name}</strong> - {course.instructor}
@@ -29,7 +29,7 @@ function StudentDashboard({ enrolledCourses }) {
             </button>
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 }

@@ -11,15 +11,12 @@
     border-radius: 10px;
 }
 .student-dashboard button{
-   
     cursor: pointer;
-    height: 30px;
-    border: none;
+    height: 40px;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: brown;
-  color: #fff;
+    border: none;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.student-dashboard  button:hover{
-    background-color: rgb(223, 38, 38);
+
+.student-dashboard .student-course li{
+    margin-bottom: 40px;
 }
