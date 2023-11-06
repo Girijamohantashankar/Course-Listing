@@ -13,7 +13,7 @@ function StudentDashboard({ enrolledCourses }) {
   }
 
   return (
-    <div>
+    <div className='student-dashboard'>
       <h1>Student Dashboard</h1>
       <ul>
         {courses.map((course) => (

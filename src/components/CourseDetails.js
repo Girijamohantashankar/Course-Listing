@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import sampleCourses from '../data';
+import "./CourseDetails.css"
 
 function CourseDetails({ onEnrollCourse, enrolledCourses, setEnrolledCourses }) {
   const { id } = useParams();
@@ -37,7 +38,7 @@ function CourseDetails({ onEnrollCourse, enrolledCourses, setEnrolledCourses }) 
   };
 
   return (
-    <div>
+    <div className='Course_Details'>
       <h2>Course Details</h2>
       <h3>{course.name}</h3>
       <p>Instructor: {course.instructor}</p>
@@ -47,15 +48,16 @@ function CourseDetails({ onEnrollCourse, enrolledCourses, setEnrolledCourses }) 
       <p>Schedule: {course.schedule}</p>
       <p>Location: {course.location}</p>
       <p>Prerequisites: {course.prerequisites}</p>
-      <img src={course.image} alt={course.name} />
       <details>
         <summary>Syllabus</summary>
         <p>{course.syllabus}</p>
       </details>
       <button onClick={enrollCourse} disabled={enrolled || loading}>
-        {loading ? 'Enrolling...' : enrolled ? 'Enrolled' : 'Enroll'}
+        {loading ? 'Enrolling...' : enrolled ? 'Enrolled' : 'Enroll Now'}
       </button>
       <Link to="/dashboard">Go to Dashboard</Link>
+      <img src={course.image} alt={course.name} />
+     
     </div>
   );
 }

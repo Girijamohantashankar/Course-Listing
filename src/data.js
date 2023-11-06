@@ -3,7 +3,7 @@ const sampleCourses = [
       id: 1,
       name: 'CSS Course',
       instructor: 'Girija Shankar',
-      description: 'Description for Course 1',
+      description: 'Description for Course Css',
       status: 'Open',
       duration: '8 weeks',
       schedule: 'Mon, Wed, Fri',

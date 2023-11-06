@@ -1,0 +1,26 @@
+.Course_Details h2 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(244, 127, 255);
+}
+.Course_Details h3 {
+  font-size: 25px;
+}
+.Course_Details img {
+  width: 100%;
+}
+.Course_Details button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: brown;
+  color: #fff;
+}
+.Course_Details button:hover{
+    background-color: rgb(223, 38, 38);
+}
