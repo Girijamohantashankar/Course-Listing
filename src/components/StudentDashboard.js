@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./StudentDashboard.css";
 
 function StudentDashboard({ enrolledCourses }) {
  const [courses, setCourses] = useState(enrolledCourses);
